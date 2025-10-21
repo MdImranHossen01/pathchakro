@@ -13,7 +13,7 @@ const Logo = () => {
           height={40}
           className="object-contain"
         />
-        <span className="text-xl font-bold text-blue-600">Pathchakro</span>
+        <span className="text-xl font-bold text-rose-600">Pathchakro</span>
       </Link>
     </div>
   );
