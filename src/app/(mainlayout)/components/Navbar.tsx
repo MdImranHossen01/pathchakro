@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Logo from "@/app/components/Logo";
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -26,9 +27,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="shrink-0 flex items-center">
-            <Link href="/" className="text-xl font-bold text-blue-600">
-              MyApp
-            </Link>
+            
+              <Logo></Logo>
           </div>
 
           {/* Search Bar */}
